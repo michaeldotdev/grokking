@@ -35,4 +35,16 @@ console.log(binarySearch(arr, 4));
 258 -> 128 -> 64 -> 32 -> 16 -> 8 -> 4 -> 2 -> 1
 8 steps
 
+1.3 - have a name, find the phone number in phone book
+O(logn) using binary search
+
+1.4 - have a name, find the phone number in phone book - search whole book
+O(n) - using simple search
+
+1.5 - read every number of every person in phone book
+O(n^2)? Reading the name and the number, doubling operation
+
+1.6 - reading just the A's numbers in the phonebook
+O(nlogn) binary search to the corresponding section, then n operation for the list of numbers
+
 */
