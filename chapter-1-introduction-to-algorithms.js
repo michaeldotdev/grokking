@@ -22,3 +22,17 @@ const binarySearch = (arr, item) => {
 let arr = [1, 3, 5, 7, 9];
 
 console.log(binarySearch(arr, 4));
+
+// Exercises
+
+/* 
+
+1.1 - Binary Search on a list of 128 names, what is the max steps?
+128 -> 64 -> 32 -> 16 -> 8 -> 4 -> 2 -> 1
+7 steps 
+
+1.2 - Double it 258
+258 -> 128 -> 64 -> 32 -> 16 -> 8 -> 4 -> 2 -> 1
+8 steps
+
+*/
